@@ -10,8 +10,9 @@
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('random-number').innerText = data.number;
+                    document.getElementById('random-number').innerText = data.number;
                 })
-                .catch(error => console.error('Errore:', error));
+                .catch(error => console.error('Error:', error));
         }
     </script>
 </head>
